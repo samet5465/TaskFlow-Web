@@ -1,16 +1,52 @@
-# React + Vite
+# TaskFlow Web - Görev Yönetim Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskFlow Web, React ve JavaScript kullanılarak geliştirilmiş, kullanıcıların günlük görevlerini kolayca yönetmesini sağlayan bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Yeni görev ekleme
+- Görevleri listeleme
+- Mevcut görevleri düzenleme
+- Görev silme
+- LocalStorage ile görevleri tarayıcıda saklama
+- Kullanıcı dostu ve sade arayüz
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6+)
+- Vite
+- HTML5
+- CSS3
+- LocalStorage
+- Git & GitHub
+- Netlify
 
-## Expanding the ESLint configuration
+## 💻 Kurulum
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projeyi bilgisayarınızda çalıştırmak için:
+
+bash
+git clone https://github.com/samet5465/TaskFlow-Web.git
+cd TaskFlow-Web
+npm install
+npm run dev
+
+
+## 📌 Proje Hakkında
+
+Bu proje, React ile frontend geliştirme becerilerini ilerletmek ve JavaScript kullanarak CRUD (Create, Read, Update, Delete) işlemlerini uygulamak amacıyla geliştirilmiştir.
+
+Görevler LocalStorage üzerinde saklandığından sayfa yenilendiğinde kaybolmaz.
+
+## 🔗 Bağlantılar
+
+*GitHub:* https://github.com/samet5465/TaskFlow-Web
+
+*Canlı Demo:* https://magnificent-chaja-76693f.netlify.app/
+
+## 👨‍💻 Geliştirici
+
+Samet
+
+JavaScript ve React ile web geliştirme çalışmaları kapsamında hazırlanmıştır.
